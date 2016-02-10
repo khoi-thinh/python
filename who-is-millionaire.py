@@ -31,7 +31,7 @@ def q3():
     print "a.1 b.2 c.11 d.3"
     choice = raw_input("> ")
     if "a" in choice or "c" in choice  or "d" in choice:
-        end("Feel sorry for you. You've should choosen b")
+        end("Feel sorry for you. You've should choosen 'b'")
     elif "b" in choice:
         victory("Congratulations!")
     else:
@@ -41,7 +41,7 @@ def victory(victory):
     print victory, "You win 100 millions $"
     exit(0)
 def quit(quit):
-    print quit, "Why do you want to quit now?"
+    print quit, "Why do you want to quit now? So bad."
     exit(0)
 def end(end):
     print end, "See you later."
@@ -52,13 +52,13 @@ def start():
     print "Welcome to 'Who is millionaire': Mr  %r" % inputname
     print "Let's get it started!"
     print "You need to answer 3 questions in order to win. READY?."
-    print "Then, input ok to move on or quit to stop."
+    print "Then, input 'ok' to move on or 'quit' to stop."
     choice = raw_input("> ")
     if choice == "ok":
         q1()
     elif choice == "quit":
         quit("WHAT!!!")
     else:
-        print "Just input ok or quit, please"
+        print "Just input 'ok' or 'quit', please"
         start()
 start()
