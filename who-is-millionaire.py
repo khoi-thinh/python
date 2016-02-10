@@ -1,3 +1,4 @@
+#!usr/bin/python
 from sys import exit
 inputname = raw_input("Enter your name to participate\n")
 
@@ -40,7 +41,7 @@ def victory(victory):
     print victory, "You win 100 millions $"
     exit(0)
 def quit(quit):
-   print quit, "Why do you want to quit now?"
+    print quit, "Why do you want to quit now?"
     exit(0)
 def end(end):
     print end, "See you later."
