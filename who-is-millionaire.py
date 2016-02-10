@@ -49,10 +49,10 @@ def end(end):
 def wrong(wrong):
     print wrong, "Be careful with your answer"
 def start():
-    print "Welcome to "Who is millionaire": Mr  %r" % inputname
+    print "Welcome to 'Who is millionaire': Mr  %r" % inputname
     print "Let's get it started!"
     print "You need to answer 3 questions in order to win. READY?."
-    print "Then, input ok to move on."
+    print "Then, input ok to move on or quit to stop."
     choice = raw_input("> ")
     if choice == "ok":
         q1()
