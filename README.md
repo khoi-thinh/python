@@ -1,5 +1,6 @@
 # Who is millinaire!!!
-I'm learning python from the scratch and want to write something, so that's where this little game comes in.
+I'm learning python from the scratch and want to write something, so that's where this little game comes in
+
 1. Install python 
 Centos 6: - rpm -ivh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
           - yum -y install python-pip
