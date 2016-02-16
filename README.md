@@ -11,7 +11,7 @@ Centos 7:
 * rpm -iUvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 * yum -y install python-pip
 
-2. chmod +x who-is-millionaire.py 
+2.chmod +x who-is-millionaire.py 
  
-3. Run with this command: python who-is-millionaire.py
+3.Run with this command: python who-is-millionaire.py
 Have fun!
