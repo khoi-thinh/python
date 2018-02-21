@@ -1,5 +1,5 @@
 # Who is millinaire!!!
-I'm learning python from the scratch and want to write something, so that's where this little game comes in
+Just for fun
 
 1. Install python 
 
@@ -11,7 +11,10 @@ Centos 7:
 * rpm -iUvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 * yum -y install python-pip
 
-2.chmod +x who-is-millionaire.py 
+2.Change permission in order to execute the file
+chmod +x who-is-millionaire.py 
  
-3.Run with this command: python who-is-millionaire.py
+3.Run with this command
+python who-is-millionaire.py
+
 Have fun!
