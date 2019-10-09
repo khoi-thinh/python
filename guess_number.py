@@ -1,3 +1,6 @@
+'''
+#ex25 from practicepython. Guessing user's number with binary search.
+'''
 guess_list = list(range(0, 101))
 
 def guess_game(guess_list):
