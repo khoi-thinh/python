@@ -1,0 +1,10 @@
+def salary_simulation():
+    base = float(input("Enter your base salary: "))
+    percentage = float(input("Enter your expected increase in percentage each year: "))
+    years = int(input("Enter number of years: "))
+    
+    year = 1
+    while year <= years:
+        base = base + base*percentage/100
+        year += 1
+    print(base)  
