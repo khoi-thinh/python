@@ -18,12 +18,8 @@ def get_args():
                         '--vowel',type=str,
                         help='The vowel to substitute',
                         default='a',choices=list('aiueo'))
-    
-    args = parser.parse_args()
 
-    if os.path.isfile(args.input):
-        args.input = open(args.input).read().rstrip()
-    return args
+    return parser.parse_args()
 
 # -------------------------------------------------- 
 def main():
