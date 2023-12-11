@@ -1,4 +1,4 @@
-#List up all EC2 based on OS platform
+#List up all EC2 based on OS platform, because the platform details have many different values and we only want the result based on Windows/Linux only, the platform will be assigned to a list accordingly to be queried
 
 #!/usr/bin/python3
 
