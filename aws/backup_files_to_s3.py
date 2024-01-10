@@ -6,7 +6,7 @@ from botocore.exceptions import ClientError
 from pathlib import Path
 from datetime import datetime
 
-# For organizing S3 folders
+# For organizing S3 folders, files will have format such as 2024-10-01/file_name in S3
 today_datetime = datetime.now()
 formatted_date = today_datetime.strftime('%Y-%m-%d')
 
