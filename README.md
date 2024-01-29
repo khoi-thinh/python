@@ -1,1 +1,1 @@
-A collection of Python scripts for practice!
+A collection of Python scripts for practice and automation tasks.
