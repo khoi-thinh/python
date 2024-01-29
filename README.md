@@ -1,1 +1,1 @@
-Just for fun!
+A collection of Python scripts for practice!
