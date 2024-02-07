@@ -5,7 +5,7 @@ import boto3
 client = boto3.client('ec2')
 
 def remove_unsecure_group_rules():
-    for sg in client.describe_security_groups(GroupIds=['sg-0e63a980470bc980b'])['SecurityGroups']:
+    for sg in client.describe_security_groups()['SecurityGroups']:
         group_id = sg['GroupId']
       
         for rule in sg['IpPermissions']:
