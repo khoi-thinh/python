@@ -1,4 +1,5 @@
 # Use newsapi key to fetch news, save results if there is in CSV to user desktop folder and notify user
+# register here: https://newsapi.org/
 import requests
 import csv 
 from datetime import datetime
