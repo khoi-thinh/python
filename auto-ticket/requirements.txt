@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+jira
+boto3
+botocore
+apscheduler
