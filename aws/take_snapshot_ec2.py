@@ -1,4 +1,4 @@
-#Search for EC2s in current region based on a specific tag key:value and take snapshot
+#Search for EC2s in current region based on a specific tag key:value and take snapshot.
 
 #!/usr/bin/python3
 
